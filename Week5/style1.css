@@ -1,0 +1,21 @@
+#determinant{
+  display:flex;
+  width:300px;
+  flex-wrap:wrap;
+}
+
+#determinant input{
+  width:80px;
+  padding:5px;
+  font-size:30px;
+}
+
+#find{
+  font-size:30px;
+  color:green;
+}
+
+#answer{
+  font-size:30px;
+  color:red;
+}
