@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="task1.php">
+	<table>
+	<tr>
+
+	<td>Maker&model</td>
+	<td><select name="model">
+		<option>Toyota 55</option>
+		<option>BMW X5</option>
+		<option>Infinity</option>
+		<option>Toyota Land Cruiser</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td>Price </td>
+	<td><input type="text" name="price"></td>
+	</tr>
+	<tr>
+	<td>Condition</td>
+	<td><input type="radio" name="cc" value="Old" checked="checked">Old
+	<input type="radio" name="cc" value="New">New
+	</td>
+	</tr>
+	<tr>
+	<td>
+	Type</td>
+	<td>
+	<select name="type">
+		<option>Couple</option>
+		<option>Sedan</option>
+		<option>Hatchback</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td rowspan="3">Attributs</td>
+	<td><input type="checkbox" name="Cd[]" value="CD/DVD">CD/DVD
+	</td>
+	</tr>
+	<tr><td><input type="checkbox" name="Cd[]" value="Cruise control">Cruise control</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" name="Cd[]" value="Seat heating">Seat heating</td>
+	</tr>
+	<tr>
+		<td><input type="submit" name="Submit"></td>
+	</tr>
+	</table>
+</form>
+</body>
+</html>
